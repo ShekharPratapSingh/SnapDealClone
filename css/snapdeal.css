@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#headerSection{
+    background: #e40046;
+    height: 111px;
+}
+.topMenu {
+    margin: 0;
+    background: #c7003d;
+    position: relative;
+    z-index: 1;
+    color: #fcfafa;
+    height: 40px;
+    line-height: 15px;
+    font-size: 12px;
+    
+}
+
+.leftpara{
+    width: 50%;
+    float: left;
+    position: relative;
+    top: -8px;
+}
+
+
+.rightUlMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: left;
+    text-align: right;
+    position: relative;
+    top: 4px;
+}
+.rightUlMenu li{
+    display: inline-block;
+
+}
+.rightUlMenu li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+/* #headerSection>header>article{
+    width: 90%;
+    margin: 0 auto;
+} */
+
+/* #headerSection .marginleftandrightspace{
+    width: 90%;
+    margin: 0 auto;
+} */
+#headerSection .marginleftandrightspace{
+    width: 90%;
+    margin: 0 auto;
+}
+#headerSection .logoandcartSection, #ContentSection>article{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+ .logoandcartSection>article .logo{
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 15px;;
+  
+    
+}
+ .logoandcartSection>article .search{
+    width: 50%;
+    float: left;
+    line-height: 70px;
+}
+ .logoandcartSection>article .cart{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+
+
+#search{
+    padding: 10px 30px;
+    width: 63%;
+    border: none;
+    border-radius: 2px;
+    background: rgba(244,244,244.0.6);
+    color: #909090;
+}
+.searchText{
+    padding: 8px 30px;
+    background: #111;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+.search i{
+    color: white;
+    position: relative;
+    z-index: 1;
+    right: 100px;
+    
+}
+
+.rightNavigation .Number{
+    position: absolute;
+    
+    top: -18px;
+    left: 82px;
+    height: 17px;
+    width: 17px;
+   
+    z-index: 1;
+
+}
+
+
+
+.rightNavigation li:nth-child(2) #insideDiv{
+    display: none;
+    background: #111; /* whenever use display none first allready assign postion property properly  */
+    position: absolute;
+    z-index: 1;
+    right: 94px;
+    left: 49px;
+}
+
+.insideList .account{
+    display: inline-block;
+    background: url(../images/newHomePageIcons@1x.png);
+    height: 51px;
+    width: 21px;
+    background-position: 126px 46px;
+    position: relative;
+    top: 30px;
+    right: 13px;
+
+}
+
+.insideList .orders{
+    display: inline-block;
+    background: url(../images/newHomePageIcons@1x.png);
+    height: 51px;
+    width: 21px;
+    background-position: 233px 48px;
+    position: relative;
+    top: 30px;
+    right: 13px;
+
+}
+
+.insideList .list{
+    display: inline-block;
+    background: url(../images/newHomePageIcons@1x.png);
+    height: 51px;
+    width: 21px;
+    background-position: 201px 46px;
+    position: relative;
+    top: 30px;
+    right: 13px;
+
+}
+
+.insideList .card{
+    display: inline-block;
+    background: url(../images/newHomePageIcons@1x.png);
+    height: 51px;
+    width: 21px;
+    background-position: 166px 46px;
+    position: relative;
+    top: 30px;
+    right: 13px;
+
+}
+
+.bottomText{
+    text-transform: capitalize;
+    text-align: center;
+    color: #eee;
+    font-size: 12px;
+
+}
+.cart .rightNavigation{
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 103px;
+}
+.rightNavigation li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.rightNavigation li a{
+    padding: 0;
+    color: white;
+    line-height: 70px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    
+}
+
+
+
+.cart .rightNavigation i{
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+}
+.rightNavigation li:nth-child(2):hover {
+    background: #111;
+    height: 71px;
+}
+/* .rightNavigation li:nth-child(2) i{
+    background:green;
+    border-radius: 100%;
+} */
+
+.rightNavigation li:nth-child(2):hover #insideDiv {
+   display: block ;
+   
+}
+.rightUlMenu i {
+   
+    font-size: 20px;
+        position: relative;
+        top: 2px;
+}
+
+/* contentSection css */
+#ContentSection{
+    background: #eee;
+    /* vh=veu height :- visible height */
+    height: 100vh;
+}
+
+.contentLeft{
+    width: 20%;
+    float: left;
+    background: white;
+   box-shadow: 3px 1px 8px 1px #111;
+    /* padding: 15px; */
+}
+.contentMiddle{
+    width: 56%;
+    float: left;
+    background: white;
+    margin: 0px 2%;
+}
+.contentRight{
+    width: 20%;
+    float: right;
+    background: white;
+    box-shadow: 1px 1px 4px 1px #111;
+}
+#ContentSection>article{
+    position: relative;
+    top: 30px;
+}
+.menuList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    left: 22px;
+}
+.menuList li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 80%;
+
+}
+.contentLeft h5{
+    padding: 15px;
+    margin: 0;
+    text-transform: capitalize;
+}
+/* .menuList li a:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.5s;
+} */
+.all_offers_icons{
+    background: url("../images/Discount_Right_icon-f5105.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    right: 8px;
+
+    
+}
+.Mobile_Tablets_icons{
+    background: url("../images/2ndLeft.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+.Electronics_icons{
+    background: url("../images/3rdLeft.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+.Computer_Gaming_icons{
+    background: url("../images/4thLeft.png");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+.Home_Kitchen_icons{
+    background: url("../images/5th\ image.jpg");
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+.offer:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.3s;
+}
+
+.mobile:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.3s;
+}
+
+.Electronics:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.3s;
+}
+
+.Computer:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.3s;
+}
+.Home:hover{
+    border-left: 3px solid red;
+    background:#eee;
+    transition: ease-in-out 0.3s;
+}
+
+
+.offer,.mobile,.Electronics,.Computer,.Home {
+        position: relative;
+      
+        right: 23px;
+}
+/* .menuList li .offers:hover{
+background: #eee;
+} */
+.contentMiddle  {
+    /* font-size: 50px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 10px 64px; */
+    /* text-align: center;
+    text-shadow: 3px 1px 1px #c6003d; */
+    background: url("../images/earphone.jpg");
+    background-size: cover;
+    /* margin: 0; */
+    /* filter: grayscale(1); */
+    height: 175px;
+   
+}
+  /* -------for filtering purpose--------------------------- */
+/* .contentMiddle:hover{    
+    filter: grayscale(0);
+} */
+
+
+/*--------------- using of overflow ----------------*/
+
+/* #newSection{
+    clear: both;
+    background: yellow;
+    border: 1px solid #111;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #c6003d; */
+
+    /* display: none; */
+    /* visibility: hidden; */
+
+    /* height: 200px;
+    width: 200px;
+    overflow: scroll;
+} */
+
+
+/* content right css */
+.contentRight .location{
+    font-size: 82px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: #ffd611;
+}
+.contentRight h2{
+    font-size: 12px;
+    text-align: center;
+    opacity: 41%  
+}
+.contentRight hr{
+    width: 23px;
+}
+.contentRight p{
+    font-size: 12px;
+    text-align: center;
+    opacity: 42%;
+}
+.contentRight input{
+    width: 222px;
+    height: 21px;
+    opacity: 51%;
+}
+.contentRight .pincode{
+    margin: 14px 11px;
+}
+.contentRight input::placeholder{
+    text-align: center;
+}
+.contentRight .submit{
+    display: inline-block;
+    background: #333;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    height: 36px;
+    width: 124px;
+    margin-left: 22px;
+}
+.contentRight .Next{
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    
+    height: 36px;
+    color: #333;
+    width: 76px;
+    opacity: 79%;
+}
+.contentRight .buttons{
+    margin-bottom: 13px;
+}
