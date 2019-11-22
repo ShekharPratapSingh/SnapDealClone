@@ -1,0 +1,2 @@
+# snapdealclone
+Clone of snapdeal
